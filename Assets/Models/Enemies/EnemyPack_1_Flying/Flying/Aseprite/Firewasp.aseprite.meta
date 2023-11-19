@@ -1,0 +1,2824 @@
+fileFormatVersion: 2
+guid: aa539b925f1f03044974990b748ecc33
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Firewasp_Frame_0
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 128
+      height: 112
+    spriteID: 8fc7079050b7ede4fbaf6be54fb672c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Firewasp_Frame_1
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 124
+      width: 128
+      height: 112
+    spriteID: e141ebfe7eaa75544b688932bead4b54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 124}
+  - name: Firewasp_Frame_2
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 244
+      width: 128
+      height: 112
+    spriteID: fa37dfad9b778cb4b8d96f500b5234ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 244}
+  - name: Firewasp_Frame_3
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 364
+      width: 128
+      height: 112
+    spriteID: decc48cea9dc4974696a2af527c6e4ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 364}
+  - name: Firewasp_Frame_4
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 484
+      width: 128
+      height: 112
+    spriteID: 4eef12c4b71cf5d4bbdc0fedda1ceede
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 484}
+  - name: Firewasp_Frame_5
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 604
+      width: 128
+      height: 112
+    spriteID: 8a0fe225143896441bc4cd7f8e667dc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 604}
+  - name: Firewasp_Frame_6
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 724
+      width: 128
+      height: 112
+    spriteID: 7f545080ba6486547b2fab33a4af191d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 724}
+  - name: Firewasp_Frame_7
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 844
+      width: 128
+      height: 112
+    spriteID: e45c28db3bd922642b413d852c2d6262
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 844}
+  - name: Firewasp_Frame_8
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 964
+      width: 128
+      height: 112
+    spriteID: ffc271ff3971e5147bbf3174a01ae21b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 964}
+  - name: Firewasp_Frame_9
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1084
+      width: 128
+      height: 112
+    spriteID: 2d3825377f83fe341a46bdfb3b811765
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1084}
+  - name: Firewasp_Frame_10
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1204
+      width: 128
+      height: 112
+    spriteID: 12281f650f39092458208345c36769ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1204}
+  - name: Firewasp_Frame_11
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1324
+      width: 128
+      height: 112
+    spriteID: 6b7a5b29628224241af7cdaa16dcbbbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1324}
+  - name: Firewasp_Frame_12
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1444
+      width: 128
+      height: 112
+    spriteID: 6fb63de7a0138b74ca92c240c33e1abd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1444}
+  - name: Firewasp_Frame_13
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1564
+      width: 128
+      height: 112
+    spriteID: 8efd5126b3de1ee4dbb831954070bd78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1564}
+  - name: Firewasp_Frame_14
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1684
+      width: 128
+      height: 112
+    spriteID: da6397df9025ee846b326ee298cd74af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1684}
+  - name: Firewasp_Frame_15
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1804
+      width: 128
+      height: 112
+    spriteID: 68f53eb560fd5d645a9ad1c6b7727b3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1804}
+  - name: Firewasp_Frame_16
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1924
+      width: 128
+      height: 112
+    spriteID: e59c11242e5f3c54f9c1866c723150f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1924}
+  - name: Firewasp_Frame_17
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 4
+      width: 128
+      height: 112
+    spriteID: de18c3ebc0e9bf246ba907fc424a2a86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 4}
+  - name: Firewasp_Frame_18
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 124
+      width: 128
+      height: 112
+    spriteID: 1fc1259d4d233c14690af105ad8e729c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 124}
+  - name: Firewasp_Frame_19
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 244
+      width: 128
+      height: 112
+    spriteID: 4fc012969c89c7e419ada12d924fb982
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 244}
+  - name: Firewasp_Frame_20
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 364
+      width: 128
+      height: 112
+    spriteID: 730ec156cdfffa645af2416585a14661
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 364}
+  - name: Firewasp_Frame_21
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 484
+      width: 128
+      height: 112
+    spriteID: 9bee36a71e2826d4ca40fe18933f0964
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 484}
+  - name: Firewasp_Frame_22
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 604
+      width: 128
+      height: 112
+    spriteID: bf2e02e0fabd2374c973a4c3a2e0c4fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 604}
+  - name: Firewasp_Frame_23
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 724
+      width: 128
+      height: 112
+    spriteID: 3b5c420e71b4b2447a11b7701c358353
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 724}
+  - name: Firewasp_Frame_24
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 844
+      width: 128
+      height: 112
+    spriteID: a83028fe15cb0ec43891f6210c37d42c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 844}
+  - name: Firewasp_Frame_25
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 964
+      width: 128
+      height: 112
+    spriteID: 0397c20b1b813d74aa277c359e256b81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 964}
+  - name: Firewasp_Frame_26
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1084
+      width: 128
+      height: 112
+    spriteID: 141b883784fbf4e478a7c6f5e744dbd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1084}
+  - name: Firewasp_Frame_27
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1204
+      width: 128
+      height: 112
+    spriteID: fc3920d59e4e462469843fdf24f2699f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1204}
+  - name: Firewasp_Frame_28
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1324
+      width: 128
+      height: 112
+    spriteID: 9d1b33fde61fc54429458bf47fe67363
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1324}
+  - name: Firewasp_Frame_29
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1444
+      width: 128
+      height: 112
+    spriteID: 620e144aae31102418b2aa900aa4a03d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1444}
+  - name: Firewasp_Frame_30
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1564
+      width: 128
+      height: 112
+    spriteID: a0ff03518e240ea4591630a3cda95f13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1564}
+  - name: Firewasp_Frame_31
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1684
+      width: 128
+      height: 112
+    spriteID: 95ca317075cfce84cb5b455ba4cae486
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1684}
+  - name: Firewasp_Frame_32
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1804
+      width: 128
+      height: 112
+    spriteID: f41758c6b7d9d424684c2e092dc67a38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1804}
+  - name: Firewasp_Frame_33
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1924
+      width: 128
+      height: 112
+    spriteID: 654348e39dcb7fd4091a53ecf80a1909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1924}
+  - name: Firewasp_Frame_34
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 4
+      width: 128
+      height: 112
+    spriteID: f7dbd6f72cebde04ab674ea867cad679
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 4}
+  - name: Firewasp_Frame_35
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 124
+      width: 128
+      height: 112
+    spriteID: 3d34e7fb4c6385141826a0abcd449c91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 124}
+  - name: Firewasp_Frame_36
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 244
+      width: 128
+      height: 112
+    spriteID: 3458cdd0dcfc7be46a77a9892cadaaae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 244}
+  - name: Firewasp_Frame_37
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 364
+      width: 128
+      height: 112
+    spriteID: 69f24c3c9ddc1cb4aa0cf25b2f420881
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 364}
+  - name: Firewasp_Frame_38
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 484
+      width: 128
+      height: 112
+    spriteID: 29bd4ca1fc523554b863c3b66f712e74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 484}
+  - name: Firewasp_Frame_39
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 604
+      width: 128
+      height: 112
+    spriteID: 6e86a7f26b283204b951d21610066610
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 604}
+  - name: Firewasp_Frame_40
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 724
+      width: 128
+      height: 112
+    spriteID: d8c5ef00f6a17904b9d9c50b3087c547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 724}
+  - name: Firewasp_Frame_41
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 844
+      width: 128
+      height: 112
+    spriteID: cd93e49daeb69b841a09c6021cb2d63d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 844}
+  - name: Firewasp_Frame_42
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 964
+      width: 128
+      height: 112
+    spriteID: 9862b666e0749414baa8d7700188563c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 964}
+  - name: Firewasp_Frame_43
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1084
+      width: 128
+      height: 112
+    spriteID: f8bf21fdab5fdc149887aa7ee2a65c7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1084}
+  - name: Firewasp_Frame_44
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1204
+      width: 128
+      height: 112
+    spriteID: 95de014f7cdbaec4b908b7a11e8748a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1204}
+  - name: Firewasp_Frame_45
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1324
+      width: 128
+      height: 112
+    spriteID: d418e39efb697a744973b9a00f38b7cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1324}
+  - name: Firewasp_Frame_46
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1444
+      width: 128
+      height: 112
+    spriteID: 2aaa45b1361cccc48a49b40130aaf147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1444}
+  - name: Firewasp_Frame_47
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1564
+      width: 128
+      height: 112
+    spriteID: a06c66887f2660e4bad8af6bdc204bc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1564}
+  - name: Firewasp_Frame_48
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1684
+      width: 128
+      height: 112
+    spriteID: c1afdc4148ec4bc428ab3cf9a238ee42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1684}
+  - name: Firewasp_Frame_49
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1804
+      width: 128
+      height: 112
+    spriteID: be62498201111da44abc5cfc7f03b266
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1804}
+  - name: Firewasp_Frame_50
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1924
+      width: 128
+      height: 112
+    spriteID: ce6d5ea2ea0585b4f979c7aed6f45619
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1924}
+  - name: Firewasp_Frame_51
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 4
+      width: 128
+      height: 112
+    spriteID: b847182c7cd59324dafc90e397765692
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 4}
+  - name: Firewasp_Frame_52
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 124
+      width: 128
+      height: 112
+    spriteID: f9b29f7255bc8ba48aeeb22ee406e5be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 124}
+  - name: Firewasp_Frame_53
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 244
+      width: 128
+      height: 112
+    spriteID: d58ef14efefbc264189662b726940de1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 244}
+  - name: Firewasp_Frame_54
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 364
+      width: 128
+      height: 112
+    spriteID: 853d94d759eddc543a4b96bf598d512d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 364}
+  - name: Firewasp_Frame_55
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 484
+      width: 128
+      height: 112
+    spriteID: e771c8d5c99a61e49b3ee0a4c3fd6f64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 484}
+  - name: Firewasp_Frame_56
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 604
+      width: 128
+      height: 112
+    spriteID: 221ef632741c98b408671c20a8199bf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 604}
+  - name: Firewasp_Frame_57
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 724
+      width: 128
+      height: 112
+    spriteID: 83f89ec1fc49b864e982ba835c04c5b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 724}
+  - name: Firewasp_Frame_58
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 844
+      width: 128
+      height: 112
+    spriteID: 8e96f2925be4700438e1f653b1c2a126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 844}
+  - name: Firewasp_Frame_59
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 964
+      width: 128
+      height: 112
+    spriteID: 271784a762cb3ae429fd855c6c2685b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 964}
+  - name: Firewasp_Frame_60
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1084
+      width: 128
+      height: 112
+    spriteID: 674bbf87b933de640b2e7987b7341696
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1084}
+  - name: Firewasp_Frame_61
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1204
+      width: 128
+      height: 112
+    spriteID: d7463798d8ee5a34691a736f07721987
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1204}
+  - name: Firewasp_Frame_62
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1324
+      width: 128
+      height: 112
+    spriteID: 742a1eac06690fb4f8602f33a13ccbd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1324}
+  - name: Firewasp_Frame_63
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1444
+      width: 128
+      height: 112
+    spriteID: cb84edf19dc922f45aa3ec868aeff7f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1444}
+  - name: Firewasp_Frame_64
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1564
+      width: 128
+      height: 112
+    spriteID: 4b7007318afcb9042b6db1f77adb05c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1564}
+  - name: Firewasp_Frame_65
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1684
+      width: 128
+      height: 112
+    spriteID: 0589cd0a009fcb5409ca722172425af3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1684}
+  - name: Firewasp_Frame_66
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1804
+      width: 128
+      height: 112
+    spriteID: b984d12cd97398848ae005803d3387c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1804}
+  - name: Firewasp_Frame_67
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1924
+      width: 128
+      height: 112
+    spriteID: a9827d765b6cc4549b89834873c1ac5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1924}
+  - name: Firewasp_Frame_68
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 4
+      width: 128
+      height: 112
+    spriteID: 8759a12c7812cb246b35564ed2c8a137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 4}
+  - name: Firewasp_Frame_69
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 124
+      width: 128
+      height: 112
+    spriteID: 2349155fe5a878949b210e0a86d72bc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 124}
+  - name: Firewasp_Frame_70
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 244
+      width: 128
+      height: 112
+    spriteID: 17a6187285e242f4ba6a8f5c4fd8fca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 244}
+  - name: Firewasp_Frame_71
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 364
+      width: 128
+      height: 112
+    spriteID: d0c1fef15a215b244987cbcf7451c864
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 364}
+  - name: Firewasp_Frame_72
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 484
+      width: 128
+      height: 112
+    spriteID: 4576b533496bf32459d4f0b07a05b383
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 484}
+  - name: Firewasp_Frame_73
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 604
+      width: 128
+      height: 112
+    spriteID: 679feeb66d1070d4db35a0cf89fa6217
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 604}
+  - name: Firewasp_Frame_74
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 724
+      width: 128
+      height: 112
+    spriteID: fe4aba610772d814789790865d15ce3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 724}
+  - name: Firewasp_Frame_75
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 844
+      width: 128
+      height: 112
+    spriteID: 496047f663944ff4683720cf8b708eba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 844}
+  - name: Firewasp_Frame_76
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 964
+      width: 128
+      height: 112
+    spriteID: abcbff1a3c3ffd344b75f746844f6a3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 964}
+  - name: Firewasp_Frame_77
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1084
+      width: 128
+      height: 112
+    spriteID: b7990c440a91e294c8deaa0d8b971959
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1084}
+  - name: Firewasp_Frame_78
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1204
+      width: 128
+      height: 112
+    spriteID: bd90d588a7252a94f869a96b90536419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1204}
+  - name: Firewasp_Frame_79
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1324
+      width: 128
+      height: 112
+    spriteID: 0699782cb9fb2dd44b915729e980d5db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1324}
+  - name: Firewasp_Frame_80
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1444
+      width: 128
+      height: 112
+    spriteID: 8e582ed0e6e21e64bb15419924ecff4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1444}
+  - name: Firewasp_Frame_81
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1564
+      width: 128
+      height: 112
+    spriteID: ddf589d88083f1447b3f9c08c5174f0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1564}
+  - name: Firewasp_Frame_82
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1684
+      width: 128
+      height: 112
+    spriteID: ac581df8625e2f341896b387b5fbf3ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1684}
+  - name: Firewasp_Frame_83
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1804
+      width: 128
+      height: 112
+    spriteID: 1ac6eb7ac71934e44b6e80f8f1f501f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1804}
+  - name: Firewasp_Frame_84
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1924
+      width: 128
+      height: 112
+    spriteID: a808eca75ab18c84f9a9341ed126771f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1924}
+  - name: Firewasp_Frame_85
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 4
+      width: 128
+      height: 112
+    spriteID: 80113bf782909ff46adb5be5fad48510
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 4}
+  - name: Firewasp_Frame_86
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 124
+      width: 128
+      height: 112
+    spriteID: 54a2589f955aa13408c9a45d128de1f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 124}
+  - name: Firewasp_Frame_87
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 244
+      width: 128
+      height: 112
+    spriteID: 037dab30198d1864c9a409324551ec43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 244}
+  - name: Firewasp_Frame_88
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 364
+      width: 128
+      height: 112
+    spriteID: 783662690564ca24c8ce83e45778a79e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 364}
+  - name: Firewasp_Frame_89
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 484
+      width: 128
+      height: 112
+    spriteID: d7b2c28b2af944d41a634f98a6d23a2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 484}
+  - name: Firewasp_Frame_90
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 604
+      width: 128
+      height: 112
+    spriteID: 0fe2e5f18d71b144484afa9bc4091dcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 604}
+  - name: Firewasp_Frame_91
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 724
+      width: 128
+      height: 112
+    spriteID: 0048da42f6fbdb84f8ceea5ed01bfa57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 724}
+  - name: Firewasp_Frame_92
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 844
+      width: 128
+      height: 112
+    spriteID: 90e5627f8269b4b4bad10613e0c1268d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 844}
+  - name: Firewasp_Frame_93
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 964
+      width: 128
+      height: 112
+    spriteID: fc62a8c664cc93d47b9d772e42908794
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 964}
+  - name: Firewasp_Frame_94
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 1084
+      width: 128
+      height: 112
+    spriteID: f4c3ea472abe1ef4f91bfb9c5c6319c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 1084}
+  - name: Firewasp_Frame_95
+    originalName: 
+    pivot: {x: 0.625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 1204
+      width: 128
+      height: 112
+    spriteID: 8f5879cca860c924ebebebead918bb20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 1204}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 254143337
+    name: Firewasp
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Firewasp_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8fc7079050b7ede4fbaf6be54fb672c8
+    - name: Firewasp_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: e141ebfe7eaa75544b688932bead4b54
+    - name: Firewasp_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: fa37dfad9b778cb4b8d96f500b5234ba
+    - name: Firewasp_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: decc48cea9dc4974696a2af527c6e4ca
+    - name: Firewasp_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 4eef12c4b71cf5d4bbdc0fedda1ceede
+    - name: Firewasp_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8a0fe225143896441bc4cd7f8e667dc9
+    - name: Firewasp_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 7f545080ba6486547b2fab33a4af191d
+    - name: Firewasp_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: e45c28db3bd922642b413d852c2d6262
+    - name: Firewasp_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: ffc271ff3971e5147bbf3174a01ae21b
+    - name: Firewasp_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 2d3825377f83fe341a46bdfb3b811765
+    - name: Firewasp_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 12281f650f39092458208345c36769ea
+    - name: Firewasp_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 6b7a5b29628224241af7cdaa16dcbbbc
+    - name: Firewasp_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 6fb63de7a0138b74ca92c240c33e1abd
+    - name: Firewasp_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8efd5126b3de1ee4dbb831954070bd78
+    - name: Firewasp_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: da6397df9025ee846b326ee298cd74af
+    - name: Firewasp_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 68f53eb560fd5d645a9ad1c6b7727b3e
+    - name: Firewasp_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: e59c11242e5f3c54f9c1866c723150f1
+    - name: Firewasp_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: de18c3ebc0e9bf246ba907fc424a2a86
+    - name: Firewasp_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 1fc1259d4d233c14690af105ad8e729c
+    - name: Firewasp_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 4fc012969c89c7e419ada12d924fb982
+    - name: Firewasp_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 730ec156cdfffa645af2416585a14661
+    - name: Firewasp_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 9bee36a71e2826d4ca40fe18933f0964
+    - name: Firewasp_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: bf2e02e0fabd2374c973a4c3a2e0c4fb
+    - name: Firewasp_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 3b5c420e71b4b2447a11b7701c358353
+    - name: Firewasp_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: a83028fe15cb0ec43891f6210c37d42c
+    - name: Firewasp_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 0397c20b1b813d74aa277c359e256b81
+    - name: Firewasp_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 141b883784fbf4e478a7c6f5e744dbd1
+    - name: Firewasp_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: fc3920d59e4e462469843fdf24f2699f
+    - name: Firewasp_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 9d1b33fde61fc54429458bf47fe67363
+    - name: Firewasp_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 620e144aae31102418b2aa900aa4a03d
+    - name: Firewasp_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: a0ff03518e240ea4591630a3cda95f13
+    - name: Firewasp_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 95ca317075cfce84cb5b455ba4cae486
+    - name: Firewasp_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: f41758c6b7d9d424684c2e092dc67a38
+    - name: Firewasp_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 654348e39dcb7fd4091a53ecf80a1909
+    - name: Firewasp_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: f7dbd6f72cebde04ab674ea867cad679
+    - name: Firewasp_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 3d34e7fb4c6385141826a0abcd449c91
+    - name: Firewasp_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 3458cdd0dcfc7be46a77a9892cadaaae
+    - name: Firewasp_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 69f24c3c9ddc1cb4aa0cf25b2f420881
+    - name: Firewasp_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 29bd4ca1fc523554b863c3b66f712e74
+    - name: Firewasp_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 6e86a7f26b283204b951d21610066610
+    - name: Firewasp_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: d8c5ef00f6a17904b9d9c50b3087c547
+    - name: Firewasp_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: cd93e49daeb69b841a09c6021cb2d63d
+    - name: Firewasp_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 9862b666e0749414baa8d7700188563c
+    - name: Firewasp_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: f8bf21fdab5fdc149887aa7ee2a65c7e
+    - name: Firewasp_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 95de014f7cdbaec4b908b7a11e8748a1
+    - name: Firewasp_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: d418e39efb697a744973b9a00f38b7cc
+    - name: Firewasp_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 2aaa45b1361cccc48a49b40130aaf147
+    - name: Firewasp_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: a06c66887f2660e4bad8af6bdc204bc5
+    - name: Firewasp_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: c1afdc4148ec4bc428ab3cf9a238ee42
+    - name: Firewasp_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: be62498201111da44abc5cfc7f03b266
+    - name: Firewasp_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: ce6d5ea2ea0585b4f979c7aed6f45619
+    - name: Firewasp_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: b847182c7cd59324dafc90e397765692
+    - name: Firewasp_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: f9b29f7255bc8ba48aeeb22ee406e5be
+    - name: Firewasp_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: d58ef14efefbc264189662b726940de1
+    - name: Firewasp_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 853d94d759eddc543a4b96bf598d512d
+    - name: Firewasp_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: e771c8d5c99a61e49b3ee0a4c3fd6f64
+    - name: Firewasp_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 221ef632741c98b408671c20a8199bf7
+    - name: Firewasp_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 83f89ec1fc49b864e982ba835c04c5b2
+    - name: Firewasp_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8e96f2925be4700438e1f653b1c2a126
+    - name: Firewasp_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 271784a762cb3ae429fd855c6c2685b3
+    - name: Firewasp_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 674bbf87b933de640b2e7987b7341696
+    - name: Firewasp_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: d7463798d8ee5a34691a736f07721987
+    - name: Firewasp_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 742a1eac06690fb4f8602f33a13ccbd2
+    - name: Firewasp_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: cb84edf19dc922f45aa3ec868aeff7f8
+    - name: Firewasp_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 4b7007318afcb9042b6db1f77adb05c1
+    - name: Firewasp_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 0589cd0a009fcb5409ca722172425af3
+    - name: Firewasp_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: b984d12cd97398848ae005803d3387c2
+    - name: Firewasp_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: a9827d765b6cc4549b89834873c1ac5e
+    - name: Firewasp_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8759a12c7812cb246b35564ed2c8a137
+    - name: Firewasp_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 2349155fe5a878949b210e0a86d72bc7
+    - name: Firewasp_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 17a6187285e242f4ba6a8f5c4fd8fca2
+    - name: Firewasp_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: d0c1fef15a215b244987cbcf7451c864
+    - name: Firewasp_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 4576b533496bf32459d4f0b07a05b383
+    - name: Firewasp_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 679feeb66d1070d4db35a0cf89fa6217
+    - name: Firewasp_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: fe4aba610772d814789790865d15ce3c
+    - name: Firewasp_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 496047f663944ff4683720cf8b708eba
+    - name: Firewasp_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: abcbff1a3c3ffd344b75f746844f6a3a
+    - name: Firewasp_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: b7990c440a91e294c8deaa0d8b971959
+    - name: Firewasp_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: bd90d588a7252a94f869a96b90536419
+    - name: Firewasp_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 0699782cb9fb2dd44b915729e980d5db
+    - name: Firewasp_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8e582ed0e6e21e64bb15419924ecff4c
+    - name: Firewasp_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: ddf589d88083f1447b3f9c08c5174f0f
+    - name: Firewasp_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: ac581df8625e2f341896b387b5fbf3ec
+    - name: Firewasp_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 1ac6eb7ac71934e44b6e80f8f1f501f8
+    - name: Firewasp_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: a808eca75ab18c84f9a9341ed126771f
+    - name: Firewasp_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 80113bf782909ff46adb5be5fad48510
+    - name: Firewasp_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 54a2589f955aa13408c9a45d128de1f6
+    - name: Firewasp_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 037dab30198d1864c9a409324551ec43
+    - name: Firewasp_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 783662690564ca24c8ce83e45778a79e
+    - name: Firewasp_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: d7b2c28b2af944d41a634f98a6d23a2f
+    - name: Firewasp_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 0fe2e5f18d71b144484afa9bc4091dcf
+    - name: Firewasp_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 0048da42f6fbdb84f8ceea5ed01bfa57
+    - name: Firewasp_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 90e5627f8269b4b4bad10613e0c1268d
+    - name: Firewasp_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: fc62a8c664cc93d47b9d772e42908794
+    - name: Firewasp_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: f4c3ea472abe1ef4f91bfb9c5c6319c5
+    - name: Firewasp_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: -32
+        y: 0
+        width: 128
+        height: 112
+      spriteId: 8f5879cca860c924ebebebead918bb20
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}

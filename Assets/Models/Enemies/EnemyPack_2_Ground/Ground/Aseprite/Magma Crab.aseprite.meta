@@ -1,0 +1,2320 @@
+fileFormatVersion: 2
+guid: 52304a260697cdc46b8152908f1f4e41
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Magma Crab_Frame_72
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 4
+      width: 51
+      height: 36
+    spriteID: 52df199e0240cfb449275ddb6ebe40bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 4}
+  - name: Magma Crab_Frame_73
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 48
+      width: 51
+      height: 36
+    spriteID: eac4e327f3b808e4085287cb5d753c17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 48}
+  - name: Magma Crab_Frame_74
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 92
+      width: 51
+      height: 36
+    spriteID: e6e9164b9587544409908bb794434fd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 92}
+  - name: Magma Crab_Frame_75
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 136
+      width: 51
+      height: 36
+    spriteID: df63088df88cca646998ee843dc6b270
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 136}
+  - name: Magma Crab_Frame_76
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 180
+      width: 51
+      height: 36
+    spriteID: af443846eda92f343981c9e32036d178
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 180}
+  - name: Magma Crab_Frame_77
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 224
+      width: 51
+      height: 36
+    spriteID: 55d03dd7b50da0a4694dd11c5d0d5e53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 224}
+  - name: Magma Crab_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 452
+      width: 42
+      height: 46
+    spriteID: b8616df237249b74aae3a9855d13faf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 452}
+  - name: Magma Crab_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 289
+      width: 42
+      height: 48
+    spriteID: 7a22451c2b992c145901d7e13ebca696
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 289}
+  - name: Magma Crab_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 345
+      width: 42
+      height: 48
+    spriteID: eb0e6f894fe2b0c4ebd9903beeb93113
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 345}
+  - name: Magma Crab_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 401
+      width: 42
+      height: 48
+    spriteID: bf042521d0493bc4597e3fddad3cac12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 401}
+  - name: Magma Crab_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 457
+      width: 42
+      height: 48
+    spriteID: 548ab819d4e27b443bf2aac78442a242
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 457}
+  - name: Magma Crab_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 42
+      height: 48
+    spriteID: 87a012d5cb6084f429228eb89ca5f954
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: Magma Crab_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 60
+      width: 42
+      height: 48
+    spriteID: aa28667e42a4f0e42be3f6d4e5df7da4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 60}
+  - name: Magma Crab_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 116
+      width: 42
+      height: 48
+    spriteID: 8ebc69189a464bf43bbef19dfe6f6e91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 116}
+  - name: Magma Crab_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 172
+      width: 42
+      height: 48
+    spriteID: e7ae48dd120943c4795449cf0cf42a8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 172}
+  - name: Magma Crab_Frame_16
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 356
+      width: 50
+      height: 36
+    spriteID: 6478132dd21f1ba4aa5f26df397bb5b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 356}
+  - name: Magma Crab_Frame_17
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 400
+      width: 50
+      height: 36
+    spriteID: 6ff3dfde05305744780ee9d7d6502875
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 400}
+  - name: Magma Crab_Frame_18
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 444
+      width: 50
+      height: 36
+    spriteID: fd109fa9631f5874fbce9f6f161266b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 444}
+  - name: Magma Crab_Frame_19
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 4
+      width: 50
+      height: 36
+    spriteID: b2e1556b939377e4da453bbc778949a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 4}
+  - name: Magma Crab_Frame_20
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 48
+      width: 50
+      height: 36
+    spriteID: 00ba4bdc5596e704fa5efba02b56720c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 48}
+  - name: Magma Crab_Frame_21
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 92
+      width: 50
+      height: 36
+    spriteID: e8c06ea23023ecb4b9afd9ba7cb865ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 92}
+  - name: Magma Crab_Frame_22
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 136
+      width: 50
+      height: 36
+    spriteID: aa5ae6ff38fbc8c4a93bdba517f694e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 136}
+  - name: Magma Crab_Frame_23
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 180
+      width: 50
+      height: 36
+    spriteID: 3588d41ddbb660045a7ef3ebd9aca110
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 180}
+  - name: Magma Crab_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 4
+      width: 42
+      height: 46
+    spriteID: 777d68fbb0bd41f4081a973d926fd402
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 4}
+  - name: Magma Crab_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 58
+      width: 42
+      height: 46
+    spriteID: 84a675a7687a43449a02ccfe55890e35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 58}
+  - name: Magma Crab_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 112
+      width: 42
+      height: 46
+    spriteID: aba3ebd6d508ff24fa2031e0f0d5e914
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 112}
+  - name: Magma Crab_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 166
+      width: 42
+      height: 46
+    spriteID: 883fc02266fce384a93e2439171341c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 166}
+  - name: Magma Crab_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 220
+      width: 42
+      height: 46
+    spriteID: ae78fa11cdea2f84e89ff7a717fd871a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 220}
+  - name: Magma Crab_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 274
+      width: 42
+      height: 46
+    spriteID: 27e673a057b23c24b906763d4a207c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 274}
+  - name: Magma Crab_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 328
+      width: 42
+      height: 46
+    spriteID: edb5de95599628b41813b493151e50e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 328}
+  - name: Magma Crab_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 382
+      width: 42
+      height: 46
+    spriteID: b993d66dd6fe6ce4f948a95f2ed2b2a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 382}
+  - name: Magma Crab_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 228
+      width: 42
+      height: 48
+    spriteID: 7863ba91ce92e4444ac5b398bff4ff80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 228}
+  - name: Magma Crab_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 284
+      width: 42
+      height: 48
+    spriteID: 8015b14ae17937c4f98c88915906e1dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 284}
+  - name: Magma Crab_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 340
+      width: 42
+      height: 48
+    spriteID: 8b38c5f42070bc5409368c42e725a12b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 340}
+  - name: Magma Crab_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 396
+      width: 42
+      height: 48
+    spriteID: aa784622c558d134b95ba2f8f87a6727
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 396}
+  - name: Magma Crab_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 452
+      width: 42
+      height: 48
+    spriteID: 482438fb650cc1f4c80f8d84c8820552
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 452}
+  - name: Magma Crab_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 4
+      width: 42
+      height: 48
+    spriteID: 39efc13bd910d0b499f0abb721b03fb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 4}
+  - name: Magma Crab_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 60
+      width: 42
+      height: 48
+    spriteID: 0ea0bfa9673462746a7ef15c61bacc2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 60}
+  - name: Magma Crab_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 116
+      width: 42
+      height: 48
+    spriteID: b322cd739738ba14fb29bcf1b6681fbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 116}
+  - name: Magma Crab_Frame_40
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 224
+      width: 50
+      height: 36
+    spriteID: 6fcf9139382ce264d919db58b26e25b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 224}
+  - name: Magma Crab_Frame_41
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 268
+      width: 51
+      height: 36
+    spriteID: 344c64419306cc54094fa21fa8287498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 268}
+  - name: Magma Crab_Frame_42
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 268
+      width: 50
+      height: 36
+    spriteID: d4457f4d0d88b744988f113bf00ca699
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 268}
+  - name: Magma Crab_Frame_43
+    originalName: 
+    pivot: {x: 0.625, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 92
+      width: 48
+      height: 36
+    spriteID: 783add1c05e5f0b4a954e6ced6ddcafd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 92}
+  - name: Magma Crab_Frame_44
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 312
+      width: 50
+      height: 36
+    spriteID: 0ff1e4b8e47defc448886e41f7fb8d12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 312}
+  - name: Magma Crab_Frame_45
+    originalName: 
+    pivot: {x: 0.5882353, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 312
+      width: 51
+      height: 36
+    spriteID: 1a86a9e837c55be488955e9b2ac06972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 312}
+  - name: Magma Crab_Frame_46
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 356
+      width: 50
+      height: 36
+    spriteID: 25ec7bca85d67f54abf94a81a7ac8781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 356}
+  - name: Magma Crab_Frame_47
+    originalName: 
+    pivot: {x: 0.625, y: -0.3611111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 136
+      width: 48
+      height: 36
+    spriteID: a803226713f20dc4ea11446bc7cf4fce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 136}
+  - name: Magma Crab_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 436
+      width: 42
+      height: 46
+    spriteID: 5c8e48a7603398e4693847eb3c1e70a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 436}
+  - name: Magma Crab_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 382
+      width: 42
+      height: 45
+    spriteID: cc5e6531d04a3d54191fdcc0946350e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 382}
+  - name: Magma Crab_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 435
+      width: 42
+      height: 45
+    spriteID: 378fbe7e7e4720f4aa61e97d46daf7b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 435}
+  - name: Magma Crab_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 4
+      width: 42
+      height: 45
+    spriteID: 1d8b11c83e27c5c48a2ba27088fac810
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 4}
+  - name: Magma Crab_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 110
+      width: 42
+      height: 44
+    spriteID: 9d36f944cd949f546820377ece78a40e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 110}
+  - name: Magma Crab_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 162
+      width: 42
+      height: 44
+    spriteID: aac6d8f8dbb4d84419c5a97d9522e1d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 162}
+  - name: Magma Crab_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 172
+      width: 42
+      height: 48
+    spriteID: bb205980ce3e6bf4bba097c1578ac517
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 172}
+  - name: Magma Crab_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 228
+      width: 42
+      height: 48
+    spriteID: 32e5dd63a9910794e8e50057dadf078e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 228}
+  - name: Magma Crab_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 284
+      width: 42
+      height: 48
+    spriteID: f969b2525d9bebc41b5c3746754746fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 284}
+  - name: Magma Crab_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 340
+      width: 42
+      height: 48
+    spriteID: aa418248055a9174d9d0afef2b3e990c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 340}
+  - name: Magma Crab_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: -0.12244898}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 42
+      height: 49
+    spriteID: 410f49628ad33d743b188f43f838e461
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Magma Crab_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: -0.14583334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 396
+      width: 42
+      height: 48
+    spriteID: e9bef14ee14fb3d46987e1f96573129d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 396}
+  - name: Magma Crab_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: -0.12244898}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 61
+      width: 42
+      height: 49
+    spriteID: 4f26c528a46c61e4c98abcb4ba092263
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 61}
+  - name: Magma Crab_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: -0.12244898}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 42
+      height: 49
+    spriteID: 91b0e9b943082af4dbc82a227457b1b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
+  - name: Magma Crab_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: -0.12244898}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 175
+      width: 42
+      height: 49
+    spriteID: 89c21c92b4dff334cb8918189bc05cb5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 175}
+  - name: Magma Crab_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: -0.12244898}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 232
+      width: 42
+      height: 49
+    spriteID: 19d3e861e35b07d418b7b4be0bf8afd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 232}
+  - name: Magma Crab_Frame_68
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 400
+      width: 50
+      height: 36
+    spriteID: cefdc6cffce32c94aa8a9811dde53f6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 400}
+  - name: Magma Crab_Frame_69
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 444
+      width: 50
+      height: 36
+    spriteID: b63d3f6b4de7b6f4bb685be6dc69621b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 444}
+  - name: Magma Crab_Frame_70
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.41666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 4
+      width: 50
+      height: 36
+    spriteID: 6bea7c39b4a20c54f85c271bd47f1318
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 4}
+  - name: Magma Crab_Frame_71
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.41666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 48
+      width: 50
+      height: 36
+    spriteID: ade0495b7cc4b9e41b7b0e7cff5d2252
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 48}
+  - name: Magma Crab_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 42
+      height: 46
+    spriteID: ac6ec45c670108d4ea2cb08d6cc308d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Magma Crab_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 58
+      width: 42
+      height: 46
+    spriteID: f948a85e1fcd181429d458bffcb0824b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 58}
+  - name: Magma Crab_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 112
+      width: 42
+      height: 46
+    spriteID: bd04ae44c8813a54f9e27bfb683092d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 112}
+  - name: Magma Crab_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 166
+      width: 42
+      height: 46
+    spriteID: af4afab75d9216e49aa61c0df81532b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 166}
+  - name: Magma Crab_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 220
+      width: 42
+      height: 46
+    spriteID: 7398e7f6a6965c14ca1acbf33316a349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 220}
+  - name: Magma Crab_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 274
+      width: 42
+      height: 46
+    spriteID: 460523d03bd7ee6498e1b9090ada97f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 274}
+  - name: Magma Crab_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.06521739}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 328
+      width: 42
+      height: 46
+    spriteID: 77e018880e7face478b8b6c5eb851be0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 328}
+  - name: Magma Crab_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: -0.044444446}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 57
+      width: 42
+      height: 45
+    spriteID: 838f870e119cb7c4f83128038890a9a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 57}
+  - name: Magma Crab_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 214
+      width: 42
+      height: 44
+    spriteID: d69912554ccc30f418386d2c30dabafa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 214}
+  - name: Magma Crab_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 266
+      width: 42
+      height: 44
+    spriteID: 191532de14dbc0648bbf4c3bc0a8ed5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 266}
+  - name: Magma Crab_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 318
+      width: 42
+      height: 44
+    spriteID: 2228b2b9ce0ba004695c4e054609d55f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 318}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1095043147
+    name: Magma Crab
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Magma Crab_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 2
+        y: 9
+        width: 51
+        height: 36
+      spriteId: 52df199e0240cfb449275ddb6ebe40bc
+    - name: Magma Crab_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 2
+        y: 10
+        width: 51
+        height: 36
+      spriteId: eac4e327f3b808e4085287cb5d753c17
+    - name: Magma Crab_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 2
+        y: 9
+        width: 51
+        height: 36
+      spriteId: e6e9164b9587544409908bb794434fd9
+    - name: Magma Crab_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 2
+        y: 9
+        width: 51
+        height: 36
+      spriteId: df63088df88cca646998ee843dc6b270
+    - name: Magma Crab_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 2
+        y: 9
+        width: 51
+        height: 36
+      spriteId: af443846eda92f343981c9e32036d178
+    - name: Magma Crab_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 2
+        y: 9
+        width: 51
+        height: 36
+      spriteId: 55d03dd7b50da0a4694dd11c5d0d5e53
+    - name: Magma Crab_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: b8616df237249b74aae3a9855d13faf8
+    - name: Magma Crab_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: 7a22451c2b992c145901d7e13ebca696
+    - name: Magma Crab_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: eb0e6f894fe2b0c4ebd9903beeb93113
+    - name: Magma Crab_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: bf042521d0493bc4597e3fddad3cac12
+    - name: Magma Crab_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: 548ab819d4e27b443bf2aac78442a242
+    - name: Magma Crab_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: 87a012d5cb6084f429228eb89ca5f954
+    - name: Magma Crab_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: aa28667e42a4f0e42be3f6d4e5df7da4
+    - name: Magma Crab_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: 8ebc69189a464bf43bbef19dfe6f6e91
+    - name: Magma Crab_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: e7ae48dd120943c4795449cf0cf42a8c
+    - name: Magma Crab_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: 6478132dd21f1ba4aa5f26df397bb5b8
+    - name: Magma Crab_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: 6ff3dfde05305744780ee9d7d6502875
+    - name: Magma Crab_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: fd109fa9631f5874fbce9f6f161266b8
+    - name: Magma Crab_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: b2e1556b939377e4da453bbc778949a3
+    - name: Magma Crab_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 13
+        width: 50
+        height: 36
+      spriteId: 00ba4bdc5596e704fa5efba02b56720c
+    - name: Magma Crab_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 13
+        width: 50
+        height: 36
+      spriteId: e8c06ea23023ecb4b9afd9ba7cb865ba
+    - name: Magma Crab_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 13
+        width: 50
+        height: 36
+      spriteId: aa5ae6ff38fbc8c4a93bdba517f694e4
+    - name: Magma Crab_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 13
+        width: 50
+        height: 36
+      spriteId: 3588d41ddbb660045a7ef3ebd9aca110
+    - name: Magma Crab_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: 777d68fbb0bd41f4081a973d926fd402
+    - name: Magma Crab_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: 84a675a7687a43449a02ccfe55890e35
+    - name: Magma Crab_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: aba3ebd6d508ff24fa2031e0f0d5e914
+    - name: Magma Crab_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: 883fc02266fce384a93e2439171341c2
+    - name: Magma Crab_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: ae78fa11cdea2f84e89ff7a717fd871a
+    - name: Magma Crab_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: 27e673a057b23c24b906763d4a207c6a
+    - name: Magma Crab_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: edb5de95599628b41813b493151e50e6
+    - name: Magma Crab_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: b993d66dd6fe6ce4f948a95f2ed2b2a3
+    - name: Magma Crab_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: 7863ba91ce92e4444ac5b398bff4ff80
+    - name: Magma Crab_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: 8015b14ae17937c4f98c88915906e1dc
+    - name: Magma Crab_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: 8b38c5f42070bc5409368c42e725a12b
+    - name: Magma Crab_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: aa784622c558d134b95ba2f8f87a6727
+    - name: Magma Crab_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: 482438fb650cc1f4c80f8d84c8820552
+    - name: Magma Crab_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: 39efc13bd910d0b499f0abb721b03fb8
+    - name: Magma Crab_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: 0ea0bfa9673462746a7ef15c61bacc2c
+    - name: Magma Crab_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 11
+        y: 8
+        width: 42
+        height: 48
+      spriteId: b322cd739738ba14fb29bcf1b6681fbd
+    - name: Magma Crab_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: 6fcf9139382ce264d919db58b26e25b9
+    - name: Magma Crab_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 2
+        y: 14
+        width: 51
+        height: 36
+      spriteId: 344c64419306cc54094fa21fa8287498
+    - name: Magma Crab_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: d4457f4d0d88b744988f113bf00ca699
+    - name: Magma Crab_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 2
+        y: 14
+        width: 48
+        height: 36
+      spriteId: 783add1c05e5f0b4a954e6ced6ddcafd
+    - name: Magma Crab_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 2
+        y: 13
+        width: 50
+        height: 36
+      spriteId: 0ff1e4b8e47defc448886e41f7fb8d12
+    - name: Magma Crab_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 2
+        y: 13
+        width: 51
+        height: 36
+      spriteId: 1a86a9e837c55be488955e9b2ac06972
+    - name: Magma Crab_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 2
+        y: 13
+        width: 50
+        height: 36
+      spriteId: 25ec7bca85d67f54abf94a81a7ac8781
+    - name: Magma Crab_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 2
+        y: 13
+        width: 48
+        height: 36
+      spriteId: a803226713f20dc4ea11446bc7cf4fce
+    - name: Magma Crab_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: 5c8e48a7603398e4693847eb3c1e70a5
+    - name: Magma Crab_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 45
+      spriteId: cc5e6531d04a3d54191fdcc0946350e7
+    - name: Magma Crab_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 45
+      spriteId: 378fbe7e7e4720f4aa61e97d46daf7b5
+    - name: Magma Crab_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 45
+      spriteId: 1d8b11c83e27c5c48a2ba27088fac810
+    - name: Magma Crab_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 11
+        y: 2
+        width: 42
+        height: 44
+      spriteId: 9d36f944cd949f546820377ece78a40e
+    - name: Magma Crab_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 11
+        y: 2
+        width: 42
+        height: 44
+      spriteId: aac6d8f8dbb4d84419c5a97d9522e1d5
+    - name: Magma Crab_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 11
+        y: 9
+        width: 42
+        height: 48
+      spriteId: bb205980ce3e6bf4bba097c1578ac517
+    - name: Magma Crab_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 11
+        y: 10
+        width: 42
+        height: 48
+      spriteId: 32e5dd63a9910794e8e50057dadf078e
+    - name: Magma Crab_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 11
+        y: 10
+        width: 42
+        height: 48
+      spriteId: f969b2525d9bebc41b5c3746754746fe
+    - name: Magma Crab_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 11
+        y: 10
+        width: 42
+        height: 48
+      spriteId: aa418248055a9174d9d0afef2b3e990c
+    - name: Magma Crab_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 49
+      spriteId: 410f49628ad33d743b188f43f838e461
+    - name: Magma Crab_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 11
+        y: 7
+        width: 42
+        height: 48
+      spriteId: e9bef14ee14fb3d46987e1f96573129d
+    - name: Magma Crab_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 49
+      spriteId: 4f26c528a46c61e4c98abcb4ba092263
+    - name: Magma Crab_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 49
+      spriteId: 91b0e9b943082af4dbc82a227457b1b8
+    - name: Magma Crab_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 49
+      spriteId: 89c21c92b4dff334cb8918189bc05cb5
+    - name: Magma Crab_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 11
+        y: 6
+        width: 42
+        height: 49
+      spriteId: 19d3e861e35b07d418b7b4be0bf8afd6
+    - name: Magma Crab_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: cefdc6cffce32c94aa8a9811dde53f6d
+    - name: Magma Crab_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 2
+        y: 14
+        width: 50
+        height: 36
+      spriteId: b63d3f6b4de7b6f4bb685be6dc69621b
+    - name: Magma Crab_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 2
+        y: 15
+        width: 50
+        height: 36
+      spriteId: 6bea7c39b4a20c54f85c271bd47f1318
+    - name: Magma Crab_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 2
+        y: 15
+        width: 50
+        height: 36
+      spriteId: ade0495b7cc4b9e41b7b0e7cff5d2252
+    - name: Magma Crab_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: ac6ec45c670108d4ea2cb08d6cc308d4
+    - name: Magma Crab_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: f948a85e1fcd181429d458bffcb0824b
+    - name: Magma Crab_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 4
+        width: 42
+        height: 46
+      spriteId: bd04ae44c8813a54f9e27bfb683092d8
+    - name: Magma Crab_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: af4afab75d9216e49aa61c0df81532b8
+    - name: Magma Crab_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: 7398e7f6a6965c14ca1acbf33316a349
+    - name: Magma Crab_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: 460523d03bd7ee6498e1b9090ada97f7
+    - name: Magma Crab_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 3
+        width: 42
+        height: 46
+      spriteId: 77e018880e7face478b8b6c5eb851be0
+    - name: Magma Crab_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 11
+        y: 2
+        width: 42
+        height: 45
+      spriteId: 838f870e119cb7c4f83128038890a9a3
+    - name: Magma Crab_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 11
+        y: 2
+        width: 42
+        height: 44
+      spriteId: d69912554ccc30f418386d2c30dabafa
+    - name: Magma Crab_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 11
+        y: 2
+        width: 42
+        height: 44
+      spriteId: 191532de14dbc0648bbf4c3bc0a8ed5d
+    - name: Magma Crab_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 11
+        y: 2
+        width: 42
+        height: 44
+      spriteId: 2228b2b9ce0ba004695c4e054609d55f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
