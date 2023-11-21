@@ -18,9 +18,9 @@ public class Enemy : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, Wpoints.waypoints[waypointIndex].position, speed * Time.deltaTime);
 
-        Vector3 dir = Wpoints.waypoints[waypointIndex].position - transform.position;
+        /*Vector3 dir = Wpoints.waypoints[waypointIndex].position - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);*/
 
         if (Vector2.Distance(transform.position, Wpoints.waypoints[waypointIndex].position) < 0.1f)
         {
