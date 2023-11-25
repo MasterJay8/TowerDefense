@@ -5,13 +5,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float speed;
-    private Waypoints1 Wpoints;
+    Waypoints Wpoints;
 
     int waypointIndex;
 
     void Start()
     {
-        Wpoints = GameObject.FindGameObjectWithTag("Waypoints").GetComponent<Waypoints1>();
+        Wpoints = GameObject.FindGameObjectWithTag("Waypoints").GetComponent<Waypoints>();
     }
 
     void Update()
@@ -25,7 +25,11 @@ public class Enemy : MonoBehaviour
         if (Vector2.Distance(transform.position, Wpoints.waypoints[waypointIndex].position) < 0.1f)
         {
             if (waypointIndex < Wpoints.waypoints.Length - 1) waypointIndex++;
-            else Destroy(gameObject);
+            else
+            {
+                EnemySpawner.onEnemyDestroy.Invoke();
+                Destroy(gameObject);
+            }
         }
 
     }
