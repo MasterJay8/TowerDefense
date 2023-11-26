@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Currency : MonoBehaviour
+public class UI : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI currencyUI;
 

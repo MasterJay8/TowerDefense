@@ -15,15 +15,15 @@ public class Manager : MonoBehaviour
     {
         currency = 100;
     }
-    public void IncreaseCurrency(int ammout)
+    public void IncreaseCurrency(int amount)
     {
-        currency += ammout;
+        currency += amount;
     }
-    public bool SpendCurrency(int ammout)
+    public bool SpendCurrency(int amount)
     {
-        if (ammout <= currency)
+        if (amount <= currency)
         {
-            currency -= ammout;
+            currency -= amount;
             return true;
         }
         else

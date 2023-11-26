@@ -18,7 +18,7 @@ public class Tower : MonoBehaviour
     [SerializeField] float fireRate;
 
     Transform target;
-    float timeUnitlFire;
+    float timeUntilFire;
 
     void Update()
     {
@@ -34,12 +34,12 @@ public class Tower : MonoBehaviour
         if (Vector2.Distance(target.position, transform.position) >= targetingRange) target = null;
         else
         {
-            timeUnitlFire += Time.deltaTime;
+            timeUntilFire += Time.deltaTime;
             //0.2f = Shoot after 1 animtion tick
-            if (timeUnitlFire >= 1f / fireRate + 0.2f) 
+            if (timeUntilFire >= 1f / fireRate + 0.2f) 
             {
                 Shoot();
-                timeUnitlFire = 0f;
+                timeUntilFire = 0f;
             }
         }
     }

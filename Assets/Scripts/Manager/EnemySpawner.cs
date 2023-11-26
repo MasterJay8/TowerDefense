@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] int baseEnemies;
     [SerializeField] float spawnRate = 0.5f;
     [SerializeField] float timeBetweenWaves;
-    [SerializeField] float enemyAmmoutScaling;
+    [SerializeField] float enemyAmountScaling;
 
     public static UnityEvent onEnemyDestroy = new UnityEvent();
 
@@ -70,6 +70,6 @@ public class EnemySpawner : MonoBehaviour
     }
     int EnemiesPerWave()
     {
-        return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, enemyAmmoutScaling));
+        return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, enemyAmountScaling));
     }
 }
