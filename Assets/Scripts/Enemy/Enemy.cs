@@ -33,4 +33,24 @@ public class Enemy : MonoBehaviour
         }
 
     }
+    public float GetDistanceTraveled()
+    {
+        float distanceTraveled = 0f;
+
+        for (int i = 0; i < Mathf.Min(waypointIndex, Wpoints.waypoints.Length - 1); i++)
+        {
+            distanceTraveled += Vector2.Distance(Wpoints.waypoints[i].position, Wpoints.waypoints[i + 1].position);
+        }
+
+        if (waypointIndex > 0 && waypointIndex < Wpoints.waypoints.Length)
+        {
+            distanceTraveled += Vector2.Distance(Wpoints.waypoints[waypointIndex - 1].position, transform.position);
+        }
+        else if (waypointIndex == 0)
+        {
+            distanceTraveled += Vector2.Distance(transform.position, Wpoints.waypoints[0].position);
+        }
+
+        return distanceTraveled;
+    }
 }
