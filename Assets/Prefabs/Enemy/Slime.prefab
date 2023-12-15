@@ -199,3 +199,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 2
   currencyWorth: 10
+  animator: {fileID: 3993304065333696891}
