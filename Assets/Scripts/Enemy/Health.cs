@@ -8,13 +8,13 @@ public class Health : MonoBehaviour
     [SerializeField] int currencyWorth;
     [SerializeField] Animator animator;
 
-    Animation animationComponent;
+    [SerializeField] AnimationClip animationComponent;
     float animationLenght;
     float deathStart;
 
     private void Awake()
     {
-        animationLenght = animationComponent.clip.length;
+        animationLenght = animationComponent.length;
     }
     public void TakeDamage(int dmg)
     {

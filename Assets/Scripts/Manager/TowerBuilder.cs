@@ -6,10 +6,9 @@ using UnityEngine.Tilemaps;
 
 public class TowerBuilder : MonoBehaviour
 {
-    public GameObject towerPrefab;
+    //public GameObject towerPrefab;
     public Tilemap tilemap;
     public TileBase grassTile;
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) 
@@ -21,14 +20,33 @@ public class TowerBuilder : MonoBehaviour
             if (tilemap.GetTile(cellPosition) == grassTile && !IsTowerAtPosition(cellPosition))
             {
                 SpawnTower(cellPosition);
-                //Debug.Log(cellPosition);
             }
+        }
+
+        if (TowerSelect.main.GetSelectedTower().prefab != null)
+        {
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos.z = 0f;
+
+            TowerSelect.main.GetSelectedTower().prefab.transform.position = mousePos;
+        }
+
+        if (Input.GetMouseButtonDown(1) && TowerSelect.main.GetSelectedTower().prefab != null)
+        {
+            Destroy(TowerSelect.main.GetSelectedTower().prefab);
         }
     }
 
     void SpawnTower(Vector3Int position)
     {
-        Instantiate(towerPrefab, tilemap.GetCellCenterWorld(position), Quaternion.identity);
+        Shop towerToBuild = TowerSelect.main.GetSelectedTower();
+        if (towerToBuild.cost > Manager.main.currency)
+        {
+            Debug.Log("You are poor");
+            return;
+        }
+        Manager.main.SpendCurrency(towerToBuild.cost);
+        Instantiate(towerToBuild.prefab, tilemap.GetCellCenterWorld(position), Quaternion.identity);
     }
     bool IsTowerAtPosition(Vector3Int position)
     {
