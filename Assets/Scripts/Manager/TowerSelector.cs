@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TowerSelecter : MonoBehaviour
+public class TowerSelector : MonoBehaviour
 {
-    public static TowerSelecter main;
+    public static TowerSelector main;
 
-    //[SerializeField] GameObject[] towerPrefabs;
     [SerializeField] Shop[] shop;
 
     int selectedTower = 0;
@@ -15,10 +14,15 @@ public class TowerSelecter : MonoBehaviour
     {
         main = this;
     }
-    //public GameObject GetSelectedTower()
     public Shop GetSelectedTower()
     {
-        //return towerPrefabs[selectedTower];
         return shop[selectedTower];
     }
+
+    public void SetSelectedTower(int selectedTower)
+    {
+        this.selectedTower = selectedTower;
+    }
+
+
 }

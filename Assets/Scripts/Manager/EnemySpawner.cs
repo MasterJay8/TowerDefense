@@ -26,9 +26,14 @@ public class EnemySpawner : MonoBehaviour
     }
     void Start()
     {
-        StartCoroutine(StartWave());
+        StartCoroutine(StartFirstWave());
     }
 
+    IEnumerator StartFirstWave()
+    {
+        yield return new WaitForSeconds(5f); 
+        StartCoroutine(StartWave());
+    }
     void Update()
     {
         if (!isSpawning) return;

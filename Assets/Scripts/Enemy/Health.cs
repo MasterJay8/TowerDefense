@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int hitPoints;
+    [SerializeField] HealthBar healthBar;
+    [SerializeField] int health;
     [SerializeField] int currencyWorth;
     [SerializeField] Animator animator;
+
 
     [SerializeField] AnimationClip animationComponent;
     float animationLenght;
@@ -15,11 +17,13 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         animationLenght = animationComponent.length;
+        healthBar.SetMaxHealth(health);
     }
     public void TakeDamage(int dmg)
     {
-        hitPoints -= dmg;
-        if (hitPoints <= 0)
+        health -= dmg;
+        healthBar.SetHealth(health);
+        if (health <= 0)
         {
             animator.SetTrigger("Death");
             //deathStart += Time.deltaTime;

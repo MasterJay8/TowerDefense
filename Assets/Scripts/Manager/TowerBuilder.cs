@@ -6,11 +6,12 @@ using UnityEngine.Tilemaps;
 
 public class TowerBuilder : MonoBehaviour
 {
-    //public GameObject towerPrefab;
     public Tilemap tilemap;
     public TileBase grassTile;
     void Update()
     {
+        if (TowerSelector.main.GetSelectedTower().prefab == null) return;
+
         if (Input.GetMouseButtonDown(0)) 
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -23,23 +24,23 @@ public class TowerBuilder : MonoBehaviour
             }
         }
 
-        if (TowerSelect.main.GetSelectedTower().prefab != null)
+        if (TowerSelector.main.GetSelectedTower().prefab != null)
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0f;
 
-            TowerSelect.main.GetSelectedTower().prefab.transform.position = mousePos;
+            TowerSelector.main.GetSelectedTower().prefab.transform.position = mousePos;
         }
 
-        if (Input.GetMouseButtonDown(1) && TowerSelect.main.GetSelectedTower().prefab != null)
+        if (Input.GetMouseButtonDown(1) && TowerSelector.main.GetSelectedTower().prefab != null)
         {
-            Destroy(TowerSelect.main.GetSelectedTower().prefab);
+            Destroy(TowerSelector.main.GetSelectedTower().prefab);
         }
     }
 
     void SpawnTower(Vector3Int position)
     {
-        Shop towerToBuild = TowerSelect.main.GetSelectedTower();
+        Shop towerToBuild = TowerSelector.main.GetSelectedTower();
         if (towerToBuild.cost > Manager.main.currency)
         {
             Debug.Log("You are poor");

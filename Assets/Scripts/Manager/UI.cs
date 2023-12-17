@@ -8,7 +8,7 @@ public class UI : MonoBehaviour
     [SerializeField] TextMeshProUGUI currencyUI;
     [SerializeField] Animator animator;
 
-    bool isShopOpen = false;
+    bool isShopOpen = true;
     public void ToggleMenu()
     {
         isShopOpen = !isShopOpen;
