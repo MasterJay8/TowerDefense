@@ -557,4 +557,7 @@ MonoBehaviour:
   health: 2
   currencyWorth: 10
   animator: {fileID: 3993304065333696891}
+  ghost:
+    serializedVersion: 2
+    m_Bits: 256
   animationComponent: {fileID: 7400000, guid: b4979cd5e4048db4589d248af8aabcae, type: 2}

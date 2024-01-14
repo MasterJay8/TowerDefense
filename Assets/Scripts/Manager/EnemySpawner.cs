@@ -7,10 +7,14 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] enemyPrefabs;
 
-    [SerializeField] int baseEnemies;
+    /*[SerializeField] int baseEnemies;
     [SerializeField] float spawnRate = 0.5f;
     [SerializeField] float timeBetweenWaves;
-    [SerializeField] float enemyAmountScaling;
+    [SerializeField] float enemyAmountScaling;*/
+    int baseEnemies = 6;
+    float spawnRate = 0.7f;
+    float timeBetweenWaves = 5f;
+    float enemyAmountScaling = 0.5f;
 
     public static UnityEvent onEnemyDestroy = new UnityEvent();
 
@@ -31,7 +35,7 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator StartFirstWave()
     {
-        yield return new WaitForSeconds(5f); 
+        yield return new WaitForSeconds(6f); 
         StartCoroutine(StartWave());
     }
     void Update()

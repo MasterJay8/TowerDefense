@@ -8,15 +8,15 @@ public class Health : MonoBehaviour
     [SerializeField] int health;
     [SerializeField] int currencyWorth;
     [SerializeField] Animator animator;
+    string ghost = "Ghost";
 
 
     [SerializeField] AnimationClip animationComponent;
-    float animationLenght;
-    float deathStart;
+    float animationLength;
 
     private void Awake()
     {
-        animationLenght = animationComponent.length;
+        animationLength = animationComponent.length;
         healthBar.SetMaxHealth(health);
     }
     public void TakeDamage(int dmg)
@@ -26,17 +26,18 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             animator.SetTrigger("Death");
-            //deathStart += Time.deltaTime;
-
-            //if (deathStart >= 1f / animationLenght)
-            //{
-                EnemySpawner.onEnemyDestroy.Invoke();
-                Manager.main.IncreaseCurrency(currencyWorth);
-                Destroy(gameObject);
-            //}
-
-
+            gameObject.layer = LayerMask.NameToLayer(ghost);
+            StartCoroutine(WaitForAnimation());
         }
+    }
+    private IEnumerator WaitForAnimation()
+    {
+        yield return new WaitForSeconds(animationLength);
+
+        // After waiting for the animation to complete
+        EnemySpawner.onEnemyDestroy.Invoke();
+        Manager.main.IncreaseCurrency(currencyWorth);
+        Destroy(gameObject);
     }
 
 }

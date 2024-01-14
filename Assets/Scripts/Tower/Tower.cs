@@ -51,14 +51,8 @@ public class Tower : MonoBehaviour
 
         animator.SetBool("Shooting", true);
     }
-    void FindTarget()
+    public void FindTarget()
     {
-        /*RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, Vector2.up, 0f, enemyMask);
-        if (hits.Length > 0)
-        {
-            target = hits[0].transform;
-        }*/
-
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, targetingRange, enemyMask);
 
         if (colliders.Length > 0)
