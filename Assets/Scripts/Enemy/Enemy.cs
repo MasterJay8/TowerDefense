@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (gameObject.layer == LayerMask.NameToLayer("Ghost")) return;
         transform.position = Vector2.MoveTowards(transform.position, Wpoints.waypoints[waypointIndex].position, speed * Time.deltaTime);
 
         /*Vector3 dir = Wpoints.waypoints[waypointIndex].position - transform.position;
@@ -27,6 +28,7 @@ public class Enemy : MonoBehaviour
             if (waypointIndex < Wpoints.waypoints.Length - 1) waypointIndex++;
             else
             {
+                //Odebrat životy base
                 EnemySpawner.onEnemyDestroy.Invoke();
                 Destroy(gameObject);
             }

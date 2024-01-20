@@ -22,7 +22,7 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
-        if (target == null)
+        if (target == null || target.gameObject.layer == LayerMask.NameToLayer("Ghost"))
         {
             animator.SetBool("Shooting", false);
             FindTarget();

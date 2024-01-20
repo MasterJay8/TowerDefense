@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 4112467301255989615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 12.502756, y: 2.6780593, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -84,7 +84,7 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  bulletPrefab: {fileID: 531385643455748678, guid: cbc12fa79a8d9124babfd3935d46a53e, type: 3}
+  bulletPrefab: {fileID: 531385643455748678, guid: 274e509350ace7e43b2367ea7337fde9, type: 3}
   firingPoint: {fileID: 4213718666491789757}
   animator: {fileID: 2919942459565242925}
   targetingRange: 3.3
