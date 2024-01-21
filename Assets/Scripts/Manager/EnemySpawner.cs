@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 using UnityEngine.Events;
 
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] enemyPrefabs;
+    public static EnemySpawner enemySpawnerScript;
+
 
     /*[SerializeField] int baseEnemies;
     [SerializeField] float spawnRate = 0.5f;
@@ -24,8 +27,16 @@ public class EnemySpawner : MonoBehaviour
     float enemiesLeftToSpawn;
     bool isSpawning = false;
 
+    //Dmg type
+    int currentWaveType = 0;
+    public int[] damageType;
+    //public int pierce = 0;
+    //public int electric = 0;
+
     private void Awake()
     {
+        damageType = new int[enemyPrefabs.Length]; //Create array based on enemy prefab number
+        enemySpawnerScript = this;
         onEnemyDestroy.AddListener(EnemyDestroyed);
     }
     void Start()
@@ -47,11 +58,12 @@ public class EnemySpawner : MonoBehaviour
         if (timeSinceSpawn >= (1f / spawnRate) && enemiesLeftToSpawn > 0)
         {
             SpawnEnemy();
-            enemiesLeftToSpawn--;
+            if (currentWaveType == 1)enemiesLeftToSpawn -= 2;
+            else enemiesLeftToSpawn--;
             enemiesAlive++;
             timeSinceSpawn = 0f;
         }
-        if (enemiesAlive == 0 && enemiesLeftToSpawn == 0)
+        if (enemiesAlive == 0 && enemiesLeftToSpawn <= 0)
         {
             EndWave();
         }
@@ -63,6 +75,12 @@ public class EnemySpawner : MonoBehaviour
     IEnumerator StartWave()
     {
         yield return new WaitForSeconds(timeBetweenWaves);
+
+        //Choose highest dmg type
+        if (currentWave >= 4) currentWaveType = damageType.ToList().IndexOf(damageType.Max());
+        Debug.Log(currentWaveType);
+        for (int i = 0; i < damageType.Length; i++) damageType[i] = 0;
+
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
     }
@@ -74,7 +92,7 @@ public class EnemySpawner : MonoBehaviour
     }
     void SpawnEnemy()
     {
-        GameObject prefabToSpawn = enemyPrefabs[0];
+        GameObject prefabToSpawn = enemyPrefabs[currentWaveType];
         Instantiate(prefabToSpawn, Waypoints.main.startWaypoint.position, Quaternion.identity);
     }
     int EnemiesPerWave()

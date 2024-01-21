@@ -6,6 +6,7 @@ using TMPro;
 public class UI : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI currencyUI;
+    [SerializeField] TextMeshProUGUI baseHealthUI;
     [SerializeField] Animator animator;
 
     bool isShopOpen = true;
@@ -17,10 +18,6 @@ public class UI : MonoBehaviour
     private void OnGUI()
     {
         currencyUI.text = Manager.main.currency.ToString();
+        baseHealthUI.text = Manager.main.baseHealth.ToString();
     }
-    /*public void SetSelectedTower()
-    {
-
-    }*/
-
 }

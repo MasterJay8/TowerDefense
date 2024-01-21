@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
             if (waypointIndex < Wpoints.waypoints.Length - 1) waypointIndex++;
             else
             {
-                //Odebrat životy base
+                Manager.main.TakeBaseHealth();
                 EnemySpawner.onEnemyDestroy.Invoke();
                 Destroy(gameObject);
             }

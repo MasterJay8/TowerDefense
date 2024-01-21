@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 3553615741510491481}
   - component: {fileID: 3392832649645351098}
   m_Layer: 6
-  m_Name: Slime
+  m_Name: Goblin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,7 +434,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -1193897484, guid: 35daf6ddcc78a634a8f61141a125250e, type: 3}
+  m_Sprite: {fileID: 1186573154, guid: 19c7ffacf2f65c1499c758f4b0fa04d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -455,7 +455,7 @@ Animator:
   m_GameObject: {fileID: 7559852015239341246}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 782848587fb3a914e94cfe1b8ccd1ae0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1015c479d25c24d4c96477e83399c508, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -540,7 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9984bb36b755c40b6cfe01e220cabd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 1
 --- !u!114 &3392832649645351098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 4526978802434711362}
-  health: 10
-  currencyWorth: 10
+  health: 24
+  currencyWorth: 20
   animator: {fileID: 3993304065333696891}
-  animationComponent: {fileID: 7400000, guid: b4979cd5e4048db4589d248af8aabcae, type: 2}
+  animationComponent: {fileID: 7400000, guid: 153d0518e811b25468f29bbb5415dae6, type: 2}

@@ -13,7 +13,7 @@ public class TowerBuilder : MonoBehaviour
     {
         if (TowerSelector.main.GetSelectedTower().prefab == null) return;
 
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) 
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -48,7 +48,13 @@ public class TowerBuilder : MonoBehaviour
             return;
         }
         Manager.main.SpendCurrency(towerToBuild.cost);
-        Instantiate(towerToBuild.prefab, tilemap.GetCellCenterWorld(position), Quaternion.identity);
+        //Instantiate(towerToBuild.prefab, tilemap.GetCellCenterWorld(position), Quaternion.identity);
+        GameObject newTower = Instantiate(towerToBuild.prefab, tilemap.GetCellCenterWorld(position), Quaternion.identity);
+
+        SpriteRenderer towerRenderer = newTower.GetComponentInChildren<SpriteRenderer>();
+
+        int sortingOrder = Mathf.RoundToInt(-newTower.transform.position.y * 2); 
+        towerRenderer.sortingOrder = sortingOrder;
     }
     bool IsTowerAtPosition(Vector3Int position)
     {

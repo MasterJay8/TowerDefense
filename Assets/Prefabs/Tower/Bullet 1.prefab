@@ -185,4 +185,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 200582223549691675}
   bulletSpeed: 5
-  bulletDamage: 1
+  bulletDamage: 5
+  bulletType: Pierce

@@ -89,7 +89,7 @@ MonoBehaviour:
   animator: {fileID: 2919942459565242925}
   targetingRange: 3.3
   rotationSpeed: 300
-  fireRate: 1
+  fireRate: 0.5
 --- !u!61 &7822706531760818214
 BoxCollider2D:
   m_ObjectHideFlags: 0
