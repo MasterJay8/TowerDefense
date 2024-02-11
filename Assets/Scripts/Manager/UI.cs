@@ -7,6 +7,7 @@ public class UI : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI currencyUI;
     [SerializeField] TextMeshProUGUI baseHealthUI;
+    [SerializeField] TextMeshProUGUI scoreUI;
     [SerializeField] Animator animator;
 
     bool isShopOpen = true;
@@ -19,5 +20,6 @@ public class UI : MonoBehaviour
     {
         currencyUI.text = Manager.main.currency.ToString();
         baseHealthUI.text = Manager.main.baseHealth.ToString();
+        scoreUI.text = Manager.main.score.ToString();
     }
 }
