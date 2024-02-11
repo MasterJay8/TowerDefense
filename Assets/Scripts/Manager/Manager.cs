@@ -40,7 +40,7 @@ public class Manager : MonoBehaviour
     public void TakeBaseHealth()
     {
         baseHealth--;
-        if (baseHealth >= 0)
+        if (baseHealth <= 0)
         {
             string filePath = Application.persistentDataPath + "/score.txt";
 

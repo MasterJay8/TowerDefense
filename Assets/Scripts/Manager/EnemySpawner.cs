@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.Events;
+using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] enemyPrefabs;
+    [SerializeField] TextMeshProUGUI countdownUI;
     public static EnemySpawner enemySpawnerScript;
 
 
@@ -46,7 +49,13 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator StartFirstWave()
     {
-        yield return new WaitForSeconds(6f); 
+        while (timeBetweenWaves >= 0)
+        {
+            countdownUI.text = Mathf.CeilToInt(timeBetweenWaves).ToString(); //time before next wave
+            yield return new WaitForSeconds(1f);
+            timeBetweenWaves -= 1f;
+        }
+        //yield return new WaitForSeconds(6f); 
         StartCoroutine(StartWave());
     }
     void Update()
@@ -74,6 +83,7 @@ public class EnemySpawner : MonoBehaviour
     }
     IEnumerator StartWave()
     {
+        //countdownUI.text = timeBetweenWaves;
         yield return new WaitForSeconds(timeBetweenWaves);
 
         //Choose highest dmg type
@@ -98,5 +108,9 @@ public class EnemySpawner : MonoBehaviour
     int EnemiesPerWave()
     {
         return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, enemyAmountScaling));
+    }
+    private void OnGUI()
+    {
+        //countdownUI.text = Manager.main.countdownUI.ToString();
     }
 }
