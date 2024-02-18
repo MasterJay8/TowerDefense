@@ -36,12 +36,10 @@ public class TowerSelector : MonoBehaviour
     {
         if (this.selectedTower != selectedTower)
         {
-            Debug.Log("turret");
             this.selectedTower = selectedTower;
         }
         else
         {
-            Debug.Log("Noturret");
             this.selectedTower = 0;
         }
     }
@@ -65,4 +63,4 @@ public class TowerSelector : MonoBehaviour
     }
 
 }
-//633838
+//hex - #633838

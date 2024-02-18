@@ -1,4 +1,3 @@
-//https://chat.openai.com/share/4f16dedd-7227-4234-ad25-c584b8290fe5
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,19 +8,23 @@ public class TowerBuilder : MonoBehaviour
 {
     public Tilemap tilemap;
     public TileBase grassTile;
+
+    public GameObject deleteButton;
+    private GameObject selectedTower;
     void Update()
     {
-        if (TowerSelector.main.GetSelectedTower().prefab == null) return;
-
         if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
             Vector3Int cellPosition = tilemap.WorldToCell(mouseWorldPos);
 
-            if (tilemap.GetTile(cellPosition) == grassTile && !IsTowerAtPosition(cellPosition))
+            if (tilemap.GetTile(cellPosition) == grassTile && !IsTowerAtPosition(cellPosition) && TowerSelector.main.GetSelectedTower().prefab != null)
             {
                 SpawnTower(cellPosition);
+            }
+            else if (TowerSelector.main.GetSelectedTower().prefab == null)
+            {
+                CheckForTurretSelection(cellPosition);
             }
         }
 
@@ -31,11 +34,7 @@ public class TowerBuilder : MonoBehaviour
             mousePos.z = 0f;
 
             TowerSelector.main.GetSelectedTower().prefab.transform.position = mousePos;
-        }
-
-        if (Input.GetMouseButtonDown(1) && TowerSelector.main.GetSelectedTower().prefab != null)
-        {
-            Destroy(TowerSelector.main.GetSelectedTower().prefab);
+            //selectedTower.transform.position = mousePos;
         }
     }
 
@@ -53,7 +52,7 @@ public class TowerBuilder : MonoBehaviour
 
         SpriteRenderer towerRenderer = newTower.GetComponentInChildren<SpriteRenderer>();
 
-        int sortingOrder = Mathf.RoundToInt(-newTower.transform.position.y * 2); 
+        int sortingOrder = Mathf.RoundToInt(-newTower.transform.position.y * 2);
         towerRenderer.sortingOrder = sortingOrder;
     }
     bool IsTowerAtPosition(Vector3Int position)
@@ -67,5 +66,31 @@ public class TowerBuilder : MonoBehaviour
             }
         }
         return false;
+    }
+    void CheckForTurretSelection(Vector3Int position)
+    {
+        Collider2D[] colliders = Physics2D.OverlapPointAll(tilemap.GetCellCenterWorld(position));
+        foreach (var collider in colliders)
+        {
+            if (collider.gameObject.CompareTag("Tower"))
+            {
+                selectedTower = collider.gameObject;
+                deleteButton.SetActive(true);
+                return;
+            }
+        }
+        selectedTower = null;
+        deleteButton.SetActive(false);
+    }
+    public void DeleteTurret()
+    {
+        //Debug.Log(selectedTower.name);
+        if (selectedTower.name == "Tower 1(Clone)") Manager.main.IncreaseCurrency(50);
+        else if(selectedTower.name == "Tower 2(Clone)") Manager.main.IncreaseCurrency(75);
+        //int towerCost = TowerSelector.main.GetSelectedTower().cost;
+        //int refundAmount = Mathf.RoundToInt(towerCost * 0.5f);
+        //Manager.main.IncreaseCurrency(refundAmount);
+        Destroy(selectedTower);
+        deleteButton.SetActive(false); 
     }
 }

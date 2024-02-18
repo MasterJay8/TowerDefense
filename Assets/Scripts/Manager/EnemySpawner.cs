@@ -55,7 +55,6 @@ public class EnemySpawner : MonoBehaviour
             yield return new WaitForSeconds(1f);
             timeBetweenWaves -= 1f;
         }
-        //yield return new WaitForSeconds(6f); 
         StartCoroutine(StartWave());
     }
     void Update()
@@ -108,9 +107,5 @@ public class EnemySpawner : MonoBehaviour
     int EnemiesPerWave()
     {
         return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, enemyAmountScaling));
-    }
-    private void OnGUI()
-    {
-        //countdownUI.text = Manager.main.countdownUI.ToString();
     }
 }
