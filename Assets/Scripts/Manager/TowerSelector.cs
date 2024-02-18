@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class TowerSelector : MonoBehaviour
 {
-
-
     public static TowerSelector main;
 
     [SerializeField] Shop[] shop;

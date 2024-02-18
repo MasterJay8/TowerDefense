@@ -87,6 +87,7 @@ public class TowerBuilder : MonoBehaviour
         //Debug.Log(selectedTower.name);
         if (selectedTower.name == "Tower 1(Clone)") Manager.main.IncreaseCurrency(50);
         else if(selectedTower.name == "Tower 2(Clone)") Manager.main.IncreaseCurrency(75);
+        else if(selectedTower.name == "Tower 3(Clone)") Manager.main.IncreaseCurrency(100);
         //int towerCost = TowerSelector.main.GetSelectedTower().cost;
         //int refundAmount = Mathf.RoundToInt(towerCost * 0.5f);
         //Manager.main.IncreaseCurrency(refundAmount);

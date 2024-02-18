@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Waypoints
   - Tower
+  - Waypoints2
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Enemy
   - Bullet
   - Ghost
-  - 
+  - Tower
   - 
   - 
   - 
@@ -45,4 +46,7 @@ TagManager:
     locked: 0
   - name: Tower
     uniqueID: 3500339295
+    locked: 0
+  - name: TowerGun
+    uniqueID: 1216793365
     locked: 0

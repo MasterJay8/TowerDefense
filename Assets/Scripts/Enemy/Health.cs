@@ -22,13 +22,10 @@ public class Health : MonoBehaviour
         animationLength = animationComponent.length;
         healthBar.SetMaxHealth(health);       
     }
-    public void TakeDamage(int dmg, string bulletType)
+    public void TakeDamage(int dmg)
     {
         health -= dmg;
         healthBar.SetHealth(health);
-        //if (bulletType == "Pierce")EnemySpawner.enemySpawnerScript.pierce += dmg;
-        if (bulletType == "Pierce") EnemySpawner.enemySpawnerScript.damageType[0] += dmg;
-        else if (bulletType == "Electric") EnemySpawner.enemySpawnerScript.damageType[1] += dmg;
         
         if (health <= 0)
         {

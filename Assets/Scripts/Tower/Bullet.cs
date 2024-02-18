@@ -8,7 +8,6 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] float bulletSpeed;
     [SerializeField] int bulletDamage;
-    [SerializeField] string bulletType;
 
     Transform target;
 
@@ -30,7 +29,7 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<Health>().TakeDamage(bulletDamage, bulletType);
+        collision.gameObject.GetComponent<Health>().TakeDamage(bulletDamage);
         Destroy(gameObject);
     }
 }

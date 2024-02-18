@@ -5,11 +5,15 @@ using System.Linq;
 using UnityEngine.Events;
 using TMPro;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEditor.Experimental.GraphView;
+using Unity.VisualScripting;
 
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] enemyPrefabs;
     [SerializeField] TextMeshProUGUI countdownUI;
+    [SerializeField] TextMeshProUGUI waveUI;
+    [SerializeField] LayerMask layerMask;
     public static EnemySpawner enemySpawnerScript;
 
 
@@ -30,15 +34,13 @@ public class EnemySpawner : MonoBehaviour
     float enemiesLeftToSpawn;
     bool isSpawning = false;
 
-    //Dmg type
-    int currentWaveType = 0;
-    public int[] damageType;
-    //public int pierce = 0;
-    //public int electric = 0;
+    int[] prefabIndex = new int[2];
+
+    //Waypoits
+    [SerializeField] Waypoints[] Wpoints;
 
     private void Awake()
     {
-        damageType = new int[enemyPrefabs.Length]; //Create array based on enemy prefab number
         enemySpawnerScript = this;
         onEnemyDestroy.AddListener(EnemyDestroyed);
     }
@@ -49,12 +51,13 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator StartFirstWave()
     {
-        while (timeBetweenWaves >= 0)
+        while (timeBetweenWaves > 0)
         {
             countdownUI.text = Mathf.CeilToInt(timeBetweenWaves).ToString(); //time before next wave
             yield return new WaitForSeconds(1f);
             timeBetweenWaves -= 1f;
         }
+        countdownUI.text = "0";
         StartCoroutine(StartWave());
     }
     void Update()
@@ -66,8 +69,6 @@ public class EnemySpawner : MonoBehaviour
         if (timeSinceSpawn >= (1f / spawnRate) && enemiesLeftToSpawn > 0)
         {
             SpawnEnemy();
-            if (currentWaveType == 1)enemiesLeftToSpawn -= 2;
-            else enemiesLeftToSpawn--;
             enemiesAlive++;
             timeSinceSpawn = 0f;
         }
@@ -82,13 +83,13 @@ public class EnemySpawner : MonoBehaviour
     }
     IEnumerator StartWave()
     {
-        //countdownUI.text = timeBetweenWaves;
+        countdownUI.text = Mathf.CeilToInt(timeBetweenWaves).ToString();
         yield return new WaitForSeconds(timeBetweenWaves);
 
-        //Choose highest dmg type
-        if (currentWave >= 4) currentWaveType = damageType.ToList().IndexOf(damageType.Max());
-        Debug.Log(currentWaveType);
-        for (int i = 0; i < damageType.Length; i++) damageType[i] = 0;
+        CheckForTowers();
+        //Debug.Log(currentWave);
+        //Debug.Log(prefabIndex[0]);
+        //Debug.Log(prefabIndex[1]);
 
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
@@ -97,15 +98,69 @@ public class EnemySpawner : MonoBehaviour
     {
         isSpawning = false;
         timeSinceSpawn = 0f;
+        currentWave++;
+        waveUI.text = currentWave.ToString();
         StartCoroutine(StartWave());
     }
     void SpawnEnemy()
     {
-        GameObject prefabToSpawn = enemyPrefabs[currentWaveType];
-        Instantiate(prefabToSpawn, Waypoints.main.startWaypoint.position, Quaternion.identity);
+        if (currentWave < 4)
+        {
+            Instantiate(enemyPrefabs[2], Wpoints[0].startWaypoint.position, Quaternion.identity);
+            if (prefabIndex[0] == 2) enemiesLeftToSpawn -= 2;
+            else enemiesLeftToSpawn--;
+        }
+        else
+        {
+            GameObject enemyObject = Instantiate(enemyPrefabs[prefabIndex[0]], Wpoints[0].startWaypoint.position, Quaternion.identity);
+            enemyObject.GetComponent<Enemy>().Initialize(0);
+            if (prefabIndex[0] == 2) enemiesLeftToSpawn -= 2;
+            else enemiesLeftToSpawn--;
+
+            GameObject enemyObject2 = Instantiate(enemyPrefabs[prefabIndex[1]], Wpoints[1].startWaypoint.position, Quaternion.identity);
+            enemyObject2.GetComponent<Enemy>().Initialize(1);
+            if (prefabIndex[1] == 2) enemiesLeftToSpawn -= 2;
+            else enemiesLeftToSpawn--;
+
+        }
     }
     int EnemiesPerWave()
     {
         return Mathf.RoundToInt(baseEnemies * Mathf.Pow(currentWave, enemyAmountScaling));
     }
+    void CheckForTowers()
+    {
+        for (int i = 0; i < Wpoints.Length; i++)
+        {
+            Waypoints waypoints = Wpoints[i];
+            int[] towerCounts = new int[enemyPrefabs.Length];
+
+            foreach (Transform waypoint in waypoints.waypoints)
+            {
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(waypoint.position, 1);
+
+                foreach (Collider2D collider in colliders)
+                {
+                    if (collider.CompareTag("Tower"))
+                    {
+                        if (collider.transform.name == "Tower 1(Clone)")
+                        {
+                            towerCounts[0]++;
+                        }
+                        else if(collider.transform.name == "Tower 2(Clone)")
+                        {
+                            towerCounts[1]++;
+                        }
+                        else if (collider.transform.name == "Tower 3(Clone)")
+                        {
+                            towerCounts[2]++;
+                        }
+                    }
+                }
+            }
+            int mostTypeTowerIndex = towerCounts.ToList().IndexOf(towerCounts.Max());
+            prefabIndex[i] = mostTypeTowerIndex;
+        }
+    }
+
 }
