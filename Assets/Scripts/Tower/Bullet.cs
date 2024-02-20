@@ -29,7 +29,15 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<Health>().TakeDamage(bulletDamage);
+        if (collision.gameObject.name == "Slime(Clone)" && transform.name == "Bullet 2(Clone)")
+        {
+            collision.gameObject.GetComponent<Health>().TakeDamage(bulletDamage * 2);
+        }
+        else
+        {
+            collision.gameObject.GetComponent<Health>().TakeDamage(bulletDamage);
+        }
+
         Destroy(gameObject);
     }
 }

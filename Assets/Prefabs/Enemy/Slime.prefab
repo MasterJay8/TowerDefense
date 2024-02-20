@@ -527,7 +527,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.23
+  m_Radius: 0.2
 --- !u!114 &3553615741510491481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,9 +541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  Wpoints:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &3392832649645351098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -557,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 4526978802434711362}
-  health: 10
+  health: 14
   currencyWorth: 10
   animator: {fileID: 3993304065333696891}
   animationComponent: {fileID: 7400000, guid: b4979cd5e4048db4589d248af8aabcae, type: 2}

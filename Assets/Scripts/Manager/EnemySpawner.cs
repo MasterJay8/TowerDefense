@@ -4,12 +4,10 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.Events;
 using TMPro;
-using UnityEngine.SocialPlatforms.Impl;
-using UnityEditor.Experimental.GraphView;
-using Unity.VisualScripting;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public static EnemySpawner main;
     [SerializeField] GameObject[] enemyPrefabs;
     [SerializeField] TextMeshProUGUI countdownUI;
     [SerializeField] TextMeshProUGUI waveUI;
@@ -28,7 +26,7 @@ public class EnemySpawner : MonoBehaviour
 
     public static UnityEvent onEnemyDestroy = new UnityEvent();
 
-    int currentWave = 1;
+    public int currentWave = 1;
     float timeSinceSpawn;
     float enemiesAlive;
     float enemiesLeftToSpawn;
@@ -46,6 +44,7 @@ public class EnemySpawner : MonoBehaviour
     }
     void Start()
     {
+        main = this;
         StartCoroutine(StartFirstWave());
     }
 
@@ -57,7 +56,8 @@ public class EnemySpawner : MonoBehaviour
             yield return new WaitForSeconds(1f);
             timeBetweenWaves -= 1f;
         }
-        countdownUI.text = "0";
+        //countdownUI.text = "";
+        countdownUI.enabled = false;
         StartCoroutine(StartWave());
     }
     void Update()
@@ -99,7 +99,7 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceSpawn = 0f;
         currentWave++;
-        waveUI.text = currentWave.ToString();
+        waveUI.text = "Wave: " + currentWave.ToString();
         StartCoroutine(StartWave());
     }
     void SpawnEnemy()
@@ -107,8 +107,7 @@ public class EnemySpawner : MonoBehaviour
         if (currentWave < 4)
         {
             Instantiate(enemyPrefabs[2], Wpoints[0].startWaypoint.position, Quaternion.identity);
-            if (prefabIndex[0] == 2) enemiesLeftToSpawn -= 2;
-            else enemiesLeftToSpawn--;
+            enemiesLeftToSpawn -= 2;
         }
         else
         {

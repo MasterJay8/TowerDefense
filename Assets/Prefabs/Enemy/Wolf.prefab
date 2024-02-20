@@ -208,7 +208,7 @@ Transform:
   m_GameObject: {fileID: 6155511517133222230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.885603, y: -12.761867, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -349,7 +349,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.23
+  m_Radius: 0.2
 --- !u!114 &-7778016340983363631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9984bb36b755c40b6cfe01e220cabd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 3.2
 --- !u!114 &-3524975494237141310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 4912014237159979143}
-  health: 7
+  health: 6
   currencyWorth: 10
   animator: {fileID: 3052067887569042608}
   animationComponent: {fileID: 7400000, guid: 27382ec570a66614a9d09b9540eda4f4, type: 2}

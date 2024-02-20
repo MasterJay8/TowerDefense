@@ -20,13 +20,14 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         animationLength = animationComponent.length;
-        healthBar.SetMaxHealth(health);       
+        int currentWave = EnemySpawner.main.currentWave;
+        healthBar.SetMaxHealth(health * Mathf.FloorToInt(Mathf.Pow(1.075f, currentWave - 1)));
     }
     public void TakeDamage(int dmg)
     {
         health -= dmg;
         healthBar.SetHealth(health);
-        
+
         if (health <= 0)
         {
             animator.SetTrigger("Death");
