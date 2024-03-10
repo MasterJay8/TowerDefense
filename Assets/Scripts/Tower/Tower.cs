@@ -10,6 +10,7 @@ public class Tower : MonoBehaviour
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] Transform firingPoint;
     [SerializeField] Animator animator;
+    [SerializeField] AnimationClip attackLength;
 
 
 
@@ -36,7 +37,9 @@ public class Tower : MonoBehaviour
         {
             timeUntilFire += Time.deltaTime;
             //0.2f = Shoot after 1 animtion tick
-            if (timeUntilFire >= 1f / fireRate + 0.2f) 
+            //if (timeUntilFire >= attackLength.length)
+            Debug.Log(1f / fireRate);
+            if (timeUntilFire >= 1f / fireRate)
             {
                 Shoot();
                 timeUntilFire = 0f;

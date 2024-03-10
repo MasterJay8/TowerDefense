@@ -70,6 +70,7 @@ public class EnemySpawner : MonoBehaviour
         {
             SpawnEnemy();
             enemiesAlive++;
+            Debug.Log("Spawned " + enemiesAlive);
             timeSinceSpawn = 0f;
         }
         if (enemiesAlive == 0 && enemiesLeftToSpawn <= 0)
@@ -80,6 +81,8 @@ public class EnemySpawner : MonoBehaviour
     void EnemyDestroyed()
     {
         enemiesAlive--;
+        Debug.Log("Remaining " + enemiesAlive);
+        Debug.Log("enemiesLeftToSpawn " + enemiesLeftToSpawn);
     }
     IEnumerator StartWave()
     {
